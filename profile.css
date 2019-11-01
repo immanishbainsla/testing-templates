@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper{
+  display : grid;
+  grid-template-columns: ;
+}
+/* For introduction card (row1) */
+
+.row1 .card{
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+ .card-body2 .btn{
+  float: left;
+  margin-left: 6rem;
+}
+.row1 img {
+  border-radius: 50%;
+  max-height: 300px;
+  max-width: 300px;
+
+}
+
+/* for describing + post of user (row2)*/
+.row2{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+
+/* for screen  */
+
+@media (max-width: 1200px) {
+  .card-body2 .btn{
+   float: left;
+   margin-left: 4rem;
+  }
+  .card-body2 h3{
+    left: 3rem;
+  }
+.descri{
+margin-left:10rem;
+}
+}
+
+
+@media (max-width: 1000px) {
+  .card-body2 .btn{
+   float: left;
+   margin-left: 2rem;
+  }
+
+  .descri{
+  margin-left:10rem;
+  }
+}
+
+@media (max-width: 830px) {
+  .row1 .card{
+    display: grid;
+    grid-template-columns: 35% 65%;
+
+  }
+  .descri{
+  margin-left:10rem;
+}
+  .row1 .card{
+    padding-top: 2rem;
+  }
+  .row1 img {
+    border-radius: 50%;
+    max-height: 200px;
+    max-width: 200px;
+  }
+  .card-body2 .btn{
+   float: left;
+   margin-left: 1rem;
+  }
+
+}
+
+@media (max-width: 699px) {
+  .descri{
+    margin-left:10rem;
+  }
+  .card-body2 .btn{
+   float: left;
+   margin-left: 2.5rem;
+  }
+  .regular{
+    display: none;
+  }
+  .row2{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+
+}
