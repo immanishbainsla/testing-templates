@@ -1,0 +1,146 @@
+.card1{
+  padding: 1rem;
+}
+.author{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.author img{
+
+  min-height: 7rem;
+  min-width: 9rem;
+  max-height: 8rem;
+  max-width: 10rem;
+}
+.author2{
+  padding-top: 2rem;
+  font-size: 1.6rem;
+  font-family: 'Lobster', cursive;
+}
+.author3{
+  padding-top: 2rem
+}
+
+@media (max-width: 799px) {
+  .author img{
+
+    min-height: 4rem;
+    min-width: 5rem;
+    max-height: 3rem;
+    max-width: 5rem;
+  }
+  .author2{
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-family: 'Lobster', cursive;
+  }
+  .author3 {
+    padding-top: 1rem;
+
+  }
+  .author3 .btn{
+    max-width: 8rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .author{
+    display: grid;
+    grid-template-columns: 25% 22% 22% 31%;
+  }
+
+  .author img{
+
+    min-height: 4rem;
+    min-width: 5rem;
+    max-height: 3rem;
+    max-width: 5rem;
+  }
+  .author2{
+    padding-top: 1rem;
+    font-size: 0.7rem;
+    font-family: 'Lobster', cursive;
+  }
+  .author3 {
+    padding-top: 1rem;
+
+  }
+  .author3 .btn{
+    max-width: 8rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .author21{
+    display: none;
+  }
+  .author{
+    display: grid;
+    grid-template-columns: 30% 25% 45%;
+  }
+  .author1{
+    padding: 1rem;
+  }
+  .author img{
+
+    min-height: 3rem;
+    min-width: 4rem;
+    max-height: 3rem;
+    max-width: 5rem;
+  }
+  .author2{
+    padding-top: 1rem;
+    font-size: 0.7rem;
+    font-family: 'Lobster', cursive;
+  }
+  .author3 {
+    padding: 1rem 0 0 1rem;
+
+  }
+  .author3 .btn{
+    max-width: 6rem;
+    max-height: 3rem;
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .author21{
+    display: none;
+  }
+  .author{
+    display: grid;
+    grid-template-columns: 30% 25% 45%;
+  }
+  .author1{
+    padding: 1rem;
+  }
+  .author img{
+
+    min-height: 2rem;
+    min-width: 3rem;
+    max-height: 3rem;
+    max-width: 4rem;
+  }
+  .author2{
+    padding-top: 1rem;
+    font-size: 0.5rem;
+    font-family: 'Lobster', cursive;
+  }
+  .author3 {
+    padding: 1rem 0 0 1rem;
+
+  }
+  .author3 .btn{
+    max-width: 6rem;
+    max-height: 1.5rem;
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 9px;
+  }
+}
+
+@media (max-width: 299px) {
+  
+}
